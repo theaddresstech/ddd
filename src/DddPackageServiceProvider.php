@@ -2,9 +2,9 @@
 
 namespace Bigtechlabs\DddPackage;
 
+use Bigtechlabs\DddPackage\Commands\DddPackageCommand;
 use Spatie\LaravelPackageTools\Package;
 use Spatie\LaravelPackageTools\PackageServiceProvider;
-use Bigtechlabs\DddPackage\Commands\DddPackageCommand;
 
 class DddPackageServiceProvider extends PackageServiceProvider
 {

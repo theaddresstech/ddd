@@ -2,9 +2,9 @@
 
 namespace Bigtechlabs\DddPackage\Tests;
 
+use Bigtechlabs\DddPackage\DddPackageServiceProvider;
 use Illuminate\Database\Eloquent\Factories\Factory;
 use Orchestra\Testbench\TestCase as Orchestra;
-use Bigtechlabs\DddPackage\DddPackageServiceProvider;
 
 class TestCase extends Orchestra
 {
